@@ -18,9 +18,9 @@ def download_zips(zip_links, out_dir):
     try:
         os.makedirs(out_dir)
     except FileExistsError:
-        print("Target directory for zip files already exists")
+        print(out_dir + " already exists")
     except OSError:
-        print("Target directory for zip files already exists")
+        print(out_dir + " already exists")
     for link in zip_links:
         file_name = link.split('/')[-1]
         print("Downloading: " + file_name)
