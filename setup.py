@@ -12,7 +12,7 @@ setup(
       install_requires=[
                         'click==6.7',
                         'sh==1.12.14',
-                        'flask==0.12.2',
+                        'flask==0.12.3',
                         'arrow==0.10.0',
                         'html5validator==0.2.8',
                         'pycodestyle==2.3.1',
