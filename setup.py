@@ -19,6 +19,8 @@ setup(
                         'pydocstyle==2.0.0',
                         'pylint==2.1.1',
                         'sh==1.12.14',
+                        'selenium==3.6.0',
+                        'requests==2.18.4'
                         ],
       entry_points={
       'console_scripts': [
