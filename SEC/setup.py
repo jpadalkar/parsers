@@ -20,7 +20,7 @@ setup(
                         'pylint==2.1.1',
                         'sh==1.12.14',
                         'selenium==3.6.0',
-                        'requests==2.18.4'
+                        'requests==2.20.0'
                         ],
       entry_points={
       'console_scripts': [
