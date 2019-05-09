@@ -21,6 +21,8 @@ setup(
                         'sh==1.12.14',
                         'selenium==3.6.0',
                         'requests==2.20.0'
+                        'beautifulsoup4==4.7.1',
+                        'bs4==0.0.1'
                         ],
       entry_points={
       'console_scripts': [
